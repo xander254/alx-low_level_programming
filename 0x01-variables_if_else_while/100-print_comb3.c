@@ -16,7 +16,10 @@ int main(void)
 		{
 			putchar(n);
 			putchar(x);
-			if (x < '8')
+			if (n == '8'; x == '9')
+			{
+				continue;
+			else
 			{
 				putchar(',');
 				putchar(' ');
