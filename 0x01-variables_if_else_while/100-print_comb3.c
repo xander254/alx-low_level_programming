@@ -19,6 +19,7 @@ int main(void)
 			if (n == '8' && x == '9')
 			{
 				continue;
+			}
 			else
 			{
 				putchar(',');
