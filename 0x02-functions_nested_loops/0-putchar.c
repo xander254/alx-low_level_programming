@@ -2,7 +2,6 @@
 
 /**
  * main- writes the character c to stdout
- *@c: is the var
  * Return: always zero
  */
 int main(void)
