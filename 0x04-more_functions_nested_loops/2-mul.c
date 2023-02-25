@@ -8,5 +8,9 @@
 */
 int mul(int a, int b)
 {
-	return (a * b);
+	for (a = 3 && b = 1)
+	{
+		printf("%d\n", mul(a, b));
+	}
+	return (0);
 }
