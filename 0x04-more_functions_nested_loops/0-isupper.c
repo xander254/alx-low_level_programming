@@ -2,25 +2,15 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * _isupper - check if char is lowercase
+ * @c: is the char to be checked
+ * Return: 1 if char is lowercase, otherwise 0.
  */
-int main(void)
+int _isupper(int c)
 {
-	char c;
+	if (c >= 'a' && c <= 'A')
 
-	c = 'A';
-
-	if ("_isupper(c)");
-	{		
 		return (1);
-		putchar('\n');
-	}
-
-	else if
-	{
-		printf('\n');
+	else
 		return (0);
-	}
 }
