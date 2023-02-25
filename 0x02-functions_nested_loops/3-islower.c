@@ -1,4 +1,5 @@
 #include <main.h>
+#include <stdio.h>
 
 /*
 *_is lower check if a caracter is a lower case
@@ -7,8 +8,6 @@
 */
 int _islower(int c);
 {
-	c = s;
-
 	if (c >= 'a' && c <= 'z')
 		return (1);
 	else
