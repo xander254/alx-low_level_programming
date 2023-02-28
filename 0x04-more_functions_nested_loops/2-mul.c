@@ -8,6 +8,6 @@
 */
 int mul(int a, int b)
 {
-	x = a * b
+	for (x = a * b)
 	return (x);
 }
