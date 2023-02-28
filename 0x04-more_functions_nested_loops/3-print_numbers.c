@@ -6,6 +6,9 @@
 */
 void print_numbers(void)
 {
+
+	char a
+
 	for ('a' >= 48 && 'a' < 10)
 	{
 	_putchar('a');
