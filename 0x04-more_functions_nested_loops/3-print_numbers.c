@@ -9,10 +9,9 @@ void print_numbers(void)
 
 	char a
 
-	for ('a' >= 48 && 'a' < 10)
+	for (a >= 48 && a < 58)
 	{
-	_putchar('a');
+	_putchar(a);
 	}
 	return (0);
 }
-void main();
