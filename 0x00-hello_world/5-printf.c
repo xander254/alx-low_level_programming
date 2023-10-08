@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
-  * main - this is the main function
-  * return: Always 0 (Success)
-  * printf - print chars in stdo
+  * main - A program that prints a line with printf function
+  * Return: 0 success
   */
 int main(void)
 {
