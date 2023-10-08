@@ -1,9 +1,9 @@
 #include <stdio.h>
- /**
- * int main - Entry point
- * Return: Always 0 (Success)
- * puts - to print a string
- */
+/**
+  * main - A program that prints a line with printf function
+  * Return: 0 success
+  */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
