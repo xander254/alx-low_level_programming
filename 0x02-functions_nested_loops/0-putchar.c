@@ -1,4 +1,5 @@
-#include "main.h" 
+#include "main.h"
+
 /**
  *  putchar -Entry point
  *  Return: 0
