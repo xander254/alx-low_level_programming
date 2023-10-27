@@ -7,13 +7,13 @@
 
 int main(void)
 {
-	char c;
+	int c;
 
-	c = 48;
+	c = 0;
 
-	while (c <= 57)
+	while (c <= 9)
 	{
-		putchar(c);
+		putchar(c + '0');
 		c++;
 	}
 	putchar('\n');
