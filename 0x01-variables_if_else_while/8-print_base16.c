@@ -11,17 +11,17 @@ int main(void)
 	char c;
 
 	a = 0;
-	c = 'f';
+	c = 'a';
 
 	while (a <= 9)
 	{
 		putchar(a + '0');
 		a++;
 	}
-	while (c <= 'f' && c >= 'a')
+	while (c >= 'a' && c <= 'f')
 	{
 		putchar(c);
-		c--;
+		c++;
 	}
 	putchar('\n');
 	return (0);
