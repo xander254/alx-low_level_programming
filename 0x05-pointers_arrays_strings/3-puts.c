@@ -2,6 +2,7 @@
 
 /**
  * _puts: - function to print a string
+ * _putchar: - put characters
  * @str: -pointer to the string
  * Return: string and a '\n'
  */
