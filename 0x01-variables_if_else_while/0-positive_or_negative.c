@@ -1,8 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+  * main - the entry point of my algorithm
+  * printf - print to the standard output
+  * Return: always 0
+  */
+
 int main(void)
 {
 	int n;
