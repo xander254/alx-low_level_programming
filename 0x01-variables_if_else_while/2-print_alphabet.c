@@ -8,13 +8,11 @@
 
 int main(void)
 {
-	char a = 97;
-	char b = 122;
+	char x = 97;
 
-	while (a < b)
+	for (x = 97; x <= 122; x++)
 	{
 		putchar('a');
-		a++;
 	}
 	putchar('\n');
 	return (0);
