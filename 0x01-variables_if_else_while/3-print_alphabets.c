@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** Print the alpHABET
+/**
   * main - the entry point of my algorithm
   * putchar - print values
   * Return: always 0
