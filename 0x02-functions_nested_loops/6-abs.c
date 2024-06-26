@@ -22,7 +22,7 @@ int _abs(int r)
 	}
 	else
 	{
-		return (0);
+		return (98);
 	}
 	return (0);
 }
