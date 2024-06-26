@@ -11,28 +11,18 @@ int print_sign(int r)
 {
 	if (r > 0)
 	{
-		_putchar('+');
-		_putchar(',');
-		_putchar(' ');
+		_putchar(43);
 		return (1);
-		_putchar('\n');
-		if ((r = 0))
-		{
-			_putchar('0');
-			_putchar(',');
-			_putchar(' ');
-			return (0);
-			_putchar('\n');
-		}
-		else
-		{
-			_putchar('-');
-			_putchar(',');
-			_putchar(' ');
-			return (-1);
-			_putchar('\n');
-		}
+	}
+	else if ((r = 0))
+	{
+		_putchar(48);
+		return (0);
+	}
+	else
+	{
+		_putchar(45);
+		return (-1);
 	}
 }
-
 
