@@ -7,9 +7,9 @@
   *@c: character to be checked
   */
 
-int _isupper(int character)
+int _isupper(int c)
 {
-	if (isupper(character))
+	if (isupper(c))
 	{
 		return (1);
 	}
