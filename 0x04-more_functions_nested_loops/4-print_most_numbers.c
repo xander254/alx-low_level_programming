@@ -2,8 +2,8 @@
 
 /**
   *print_most_numbers- print numbers exclude 2 && 4
-  *Return: void 
-  *@c: character to be used
+  *Return: void
+  *
   */
 
 void print_most_numbers(void)
