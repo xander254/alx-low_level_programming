@@ -1,4 +1,6 @@
 #include "main.h"
+#include <inttypes.h>
+#include <stdlib.h>
 
 /**
   * _abs - find the absolute value of an int
@@ -8,21 +10,5 @@
 
 int _abs(int r)
 {
-	if (r < 0)
-	{
-		r = (-1) * r;
-		return (0);
-		_putchar('\n');
-	}
-	else if (r == 1)
-	{
-		r = (-1) * r;
-		return (1);
-		_putchar('\n');
-	}
-	else
-	{
-		return (98);
-	}
-	return (0);
+	return (abs(r));
 }
