@@ -10,5 +10,12 @@
 
 int _abs(int r)
 {
-	return (abs(r));
+	if (r < 0)
+	{
+		int abs_value;
+
+	abs_value = r * -1;
+	return (abs_value);
+	}
+	return (c);
 }
