@@ -4,7 +4,7 @@
 /**
   *_strlen - check the length of a string
   *Return: 0
-  *
+  *@s: string
   */
 int _strlen(char *s)
 {
@@ -16,6 +16,6 @@ int _strlen(char *s)
 		s++;
 	}
 
-	return length;
+	return (length);
 }
 
