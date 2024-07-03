@@ -3,7 +3,7 @@
 /**
   *print_rev - print in reverse
   *Return: 0
-  *
+  *@s: the string we are using
   */
 void print_rev(char *s)
 {
@@ -16,7 +16,7 @@ void print_rev(char *s)
 		length++;
 		end++;
 	}
-	for (i = length -1; i >= 0; i--)
+	for (i = length - 1; i >= 0; i--)
 	{
 		putchar(s[i]);
 	}
