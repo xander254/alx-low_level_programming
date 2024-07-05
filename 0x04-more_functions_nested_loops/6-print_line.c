@@ -9,7 +9,6 @@
 void print_line(int n)
 {
 
-	for (n = 0; n <= 10)
 	{
 		if (n <= 0)
 		{
@@ -20,5 +19,4 @@ void print_line(int n)
 			_putchar(95);
 		}
 		_putchar('\n');
-	}
 }
