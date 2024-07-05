@@ -11,14 +11,19 @@ int main(void)
 	int a;
 	int b;
 
-	for (a = 48; a < 58; a++)
+	for (a = 48; a <= 57; a++)
 	{
-		putchar(a);
-		if (a < 57)
+		for (b = a + 1; b <= 57; b++)
 		{
-			putchar(44);
-			putchar(32);
+			putchar(a);
+			putchar(b);
+			if (!(a == 8 && b == 9))
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
+
 	}
 	putchar('\n');
 	return (0);
