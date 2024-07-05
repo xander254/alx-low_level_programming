@@ -8,8 +8,7 @@
 
 int main(void)
 {
-	int a;
-	int b;
+	int a, b;
 
 	for (a = 48; a <= 57; a++)
 	{
@@ -17,7 +16,7 @@ int main(void)
 		{
 			putchar(a);
 			putchar(b);
-			if (!(a == 8 && b == 9))
+			if (a != 56 || b != 57)
 			{
 				putchar(',');
 				putchar(' ');
