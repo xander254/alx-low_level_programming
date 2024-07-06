@@ -1,6 +1,6 @@
+#include "main.h"
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 
 /**
   * positive_or_negative - find if an int is positive or negative
