@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-  * positive_or_negative - an algo to find if an int is positive or negative
+  * positive_or_negative - find if an int is positive or negative
   * printf - print to the standard output
   * Return: always 0
   *@n: int to be checked
