@@ -3,7 +3,7 @@
 
 /**
   * puts_half -  a function that prints half a string
-  * @n: (length_of_the_string - 1) / 2
+  * @str: string to be used
   * return: void
   */
 
