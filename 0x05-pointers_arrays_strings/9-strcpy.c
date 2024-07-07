@@ -4,7 +4,8 @@
 /**
   * _strcpy - A function to copy a string. similiar to strcpy in stdio
   * Retrun: *dest
-  * 
+  * @dest: destination string
+  * @src: source string to be copied to dest
   */
 
 char *_strcpy(char *dest, char *src)
