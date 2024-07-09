@@ -10,13 +10,10 @@ char *string_toupper(char *str)
 {
 	int i = 0;
 
-	while (str[i])
+	while (str[i] != '\0')
 	{
-		if ((str[i]) != '\0')
-		{
 		putchar(toupper(str[i]));
 		i++;
-		}
 	}
-	return (0);
+	return (str);
 }
