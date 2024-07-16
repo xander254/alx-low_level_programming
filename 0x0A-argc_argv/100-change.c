@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int number;
-	int count;
+	int count_25;
 
 	if (argc != 2)
 	{
@@ -26,8 +26,9 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
-	count = number % 10;
-	printf("%d\n", count);
+	count_25 = number / 25;
+	number = number % 25;
+	printf("%d\n", count_25);
 	return (0);
 }
 
