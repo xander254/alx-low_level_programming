@@ -11,8 +11,8 @@
 char *_strdup(char *str)
 {
 	char *str2;
-	unsigned int length1;
-	unsigned int length2;
+	unsigned int length1 = 0;
+	unsigned int length2 = 0;
 
 
 	if (str == NULL)
@@ -21,17 +21,19 @@ char *_strdup(char *str)
 	}
 	while (str[length1] != '\0')
 	{
-		str2 = malloc((length1 + 1) * sizeof(char));
 		length1++;
 	}
+	str2 = (char *)malloc((length1 + 1) * sizeof(char));
 	if (str2 == NULL)
 	{
 		return (NULL);
 	}
-	for (length2 = 0; length2 < length1; length2++)
+	while (length2 < length1)
 	{
-		str2[length2] = str[length1];
+		str2[length2] = str[length2];
+		length2++;
 	}
+	str2[length2] = '\0';
 	return (str2);
 }
 
