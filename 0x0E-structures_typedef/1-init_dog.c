@@ -4,11 +4,11 @@
 /**
   * init_dog -a function that initialize a var of type struct dog
   * struct dog - a struct of type dog
-  * @d: pointer to struct dog
+  * @d: a pointer to struct dog
   * @name: the name of the dog
   * @age: the age of the dog
   * @owner: the owner
-  * Return: 0
+  * Return: Always 0
   */
 
 
