@@ -1,1 +1,2 @@
-Building my own custom printf function like the one in the c standardlibrary. This is a team project with Fiona Gachuuri
+This  is a team project that requires us to create a custom printf function.
+Team members Alex Kinyanjui and Fiona Gachuuri.
