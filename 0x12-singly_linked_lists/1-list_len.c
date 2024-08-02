@@ -15,10 +15,8 @@ size_t list_len(const list_t *h)
 
 	while (h != NULL)
 	{
-		printf("-> %u elements", h->len);
+		element_count++;
 		h = h->next;
-		element_count = element_count + 1;
-		printf("\n");
 	}
 	return (element_count);
 }
