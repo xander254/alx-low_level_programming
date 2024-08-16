@@ -16,12 +16,12 @@ int create_file(const char *filename, char *text_content)
 	{
 		return (-1);
 	}
-	fd = fopen(filename, "w+");
+	fd = fopen(filename, "w");
 	if (fd == NULL)
 	{
 		return (-1);
 	}
-	chmod(filename, 600);
+	chmod(filename, 0600);
 
 	if (text_content != NULL)
 	{
