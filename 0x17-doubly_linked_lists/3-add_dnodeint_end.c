@@ -12,7 +12,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new_node, *temp;
 
-	new_node = malloc(sizeof(dlistint_t));
+	new_node = (dlistint_t *) malloc(sizeof(dlistint_t));
 	if (new_node == NULL)
 	{
 		perror("Memory allocation Failed\n");
@@ -34,6 +34,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 			temp = temp->next;
 		}
 		temp->next = new_node;
+		new_node->prev = temp->prev;
 	}
 	return (new_node);
 }
