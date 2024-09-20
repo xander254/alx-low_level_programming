@@ -12,7 +12,7 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new_node, *temp;
 
-	new_node = malloc(sizeof(dlistint_t));
+	new_node =(struct dlistint_s *)malloc(sizeof(struct dlistint_s));
 	if (new_node == NULL)
 	{
 		perror("Memory allocation Failed\n");
