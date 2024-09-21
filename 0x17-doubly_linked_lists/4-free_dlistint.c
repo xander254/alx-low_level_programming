@@ -11,7 +11,6 @@ void free_dlistint(dlistint_t *head)
 
 	if (head == NULL)
 	{
-		perror("The list is empty");
 		return;
 	}
 	current_node = head;
@@ -22,4 +21,5 @@ void free_dlistint(dlistint_t *head)
 		free(current_node);
 		current_node = next_node;
 	}
+	head = NULL;
 }
