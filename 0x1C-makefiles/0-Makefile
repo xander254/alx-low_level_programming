@@ -1,8 +1,2 @@
-CC = gcc
-TARGET = school
-SRC = main.c school.c
-
-all: $(TARGET)
-
-$(TARGET): $(SRC)
-    $(CC) $(SRC) -o $(TARGET)
+all:
+	gcc main.c school.c -o school
