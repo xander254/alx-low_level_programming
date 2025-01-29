@@ -1,0 +1,1 @@
+Search algoriths in detail
